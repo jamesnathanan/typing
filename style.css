@@ -1,0 +1,105 @@
+/* Define a color palette */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --background-color: #f2f2f2;
+  --text-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+#test-paragraph, #exercise-text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#user-input, #exercise-input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 18px;
+  width: 80%;
+  max-width: 500px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+#user-input:focus, #exercise-input:focus {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#start-button, #start-exercise-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#start-button:hover, #start-exercise-button:hover {
+  background-color: #2980b9;
+}
+
+#test-results, #exercise-results {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+select {
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+select:focus {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#progress {
+  font-size: 20px;
+}
