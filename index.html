@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Training App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Typing Training App</h1>
+	</header>
+	<main>
+		<section id="typing-test">
+			<h2>Typing Test</h2>
+			<p>Here is a sample paragraph for you to type:</p>
+			<p id="test-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<input type="text" id="user-input" placeholder="Start typing...">
+			<button id="start-button">Start</button>
+			<p id="test-results"></p>
+		</section>
+		<section id="typing-exercises">
+			<h2>Typing Exercises</h2>
+			<p>Select a difficulty level:</p>
+			<select id="difficulty-level">
+				<option value="easy">Easy</option>
+				<option value="medium">Medium</option>
+				<option value="hard">Hard</option>
+			</select>
+			<button id="start-exercise-button">Start</button>
+			<p id="exercise-text"></p>
+			<input type="text" id="exercise-input" placeholder="Start typing...">
+			<p id="exercise-results"></p>
+		</section>
+		<section id="progress">
+			<h2>Progress</h2>
+			<p>Your progress will be displayed here.</p>
+		</section>
+	</main>
+	<footer>
+		<p>Created by [Your Name], 2023</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
